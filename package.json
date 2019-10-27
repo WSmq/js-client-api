@@ -1,0 +1,32 @@
+{
+  "name": "cloudws-js-client-api",
+  "version": "0.1.0",
+  "description": "Javascript client for CLoudWS",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloudWSIO/js-client-api.git"
+  },
+  "keywords": [
+    "cloudws",
+    "javascript",
+    "api"
+  ],
+  "author": "CloudWS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CloudWSIO/js-client-api/issues"
+  },
+  "homepage": "https://github.com/CloudWSIO/js-client-api#readme",
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "precommit": [
+    "build"
+  ]
+}
