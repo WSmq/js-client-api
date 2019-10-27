@@ -1,8 +1,9 @@
 {
   "name": "@cloudws/js-client-api",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Javascript client for CLoudWS",
   "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "build": "rm -rf dist && tsc"
   },
