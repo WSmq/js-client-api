@@ -1,5 +1,5 @@
 {
-  "name": "cloudws-js-client-api",
+  "name": "@cloudws/js-client-api",
   "version": "0.1.0",
   "description": "Javascript client for CLoudWS",
   "main": "dist/src/index.js",
