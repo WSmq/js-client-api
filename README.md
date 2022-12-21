@@ -1,4 +1,4 @@
-# CloudWS javacsript client
+# WSmq javacsript client
 
 #### Installation
 ```
